@@ -1,0 +1,37 @@
+{
+    "name": "devpremier-infotech/contact",
+    "version": "1.0.1",
+    "license": "MIT",
+    "require": {
+        "paypal/paypal-checkout-sdk": "1.0.1"
+    },
+    "authors": [
+        {
+            "name": "Ashwani Garg",
+            "email": "ashwanigarg@outlook.in",
+            "homepage": "https://www.devpremier.com",
+            "role": "owner"
+        }
+    ],
+    "support": {
+        "email": "ashwanigarg@outlook.in"
+    },
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/ashwanigarg"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "DevpremierInfotech\\Contact\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevpremierInfotech\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
