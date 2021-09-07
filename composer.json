@@ -1,6 +1,6 @@
 {
     "name": "devpremier-infotech/contact",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "require": {
         "paypal/paypal-checkout-sdk": "1.0.1"
